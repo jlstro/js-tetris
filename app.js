@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             draw()
             timerId = setInterval(moveDown,1000 )
-            nextRandom = Math.floor(Math.random()*theTetros.length)
+            // nextRandom = Math.floor(Math.random()*theTetros.length)
             displayShape()
         }
     })
